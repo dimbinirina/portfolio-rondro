@@ -225,7 +225,7 @@ ul{list-style: none; padding: 0 !important;}
     color: rgb(245 247 250 / 70%);
 }
 .kl-copyright {
-    text-align: right;
+    margin-top: 30px;
 }
 .kl-copyright p {
     color: rgb(245 247 250 / 60%);

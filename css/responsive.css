@@ -1,3 +1,102 @@
-@media screen and (min-width: 320px) and (max-width: 767px){
-    
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .kl-title-hero h1{
+        font-size: 65px;
+    }
+     .kl-hero{
+        min-height: 1150px;
+    }
+    .kl-bloc-hero{
+        left: 0;
+        transform: initial;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .kl-title-hero h1{
+        font-size: 70px;
+    }
+    .kl-hero{
+        min-height: 1100px;
+    }
+    .kl-list-link-header a{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .kl-img-calendly img{
+        height: auto;
+    }
+    .kl-txt-info-contact{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 991px){
+    .kl-navbar-menu button {
+        border: none;
+        box-shadow: none !important;
+    }
+    .kl-hero{
+        margin-top: initial;
+    }
+    .kl-link-contact-head {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .kl-slide-hero{
+        display: none;
+    }
+    .kl-menu-footer li{
+        padding: 0 4px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .kl-title-hero h1{
+        font-size: 40px;
+    }
+    .kl-txt-hero {
+    max-width: 100%;
+    }  
+    .kl-hero{
+        min-height: 1150px;
+    }
+    .kl-bloc-hero{
+        left: 0;
+        transform: initial;
+    }
+    .kl-list-link-header a{
+        display: inline-block;
+    }
+    .kl-list-link-header li{
+        margin-bottom: 10px;
+    }
+    .kl-img-about{
+        display: none;
+    }
+    .kl-title-service h2{
+        font-size: 60px;
+    }
+    .kl-contact .row{
+        --bs-gutter-x: 0;
+        --bs-gutter-y: 0;
+    }
+    .kl-txt-info-contact{
+        font-size: 12px;
+    }
+    .kl-img-calendly img{
+        height: auto;
+    }
+}
+@media screen and (max-width: 797px){
+    .kl-blur-blue{display: none;}
+}
+@media screen and (max-width: 767px){
+    .footer .col-md-4.d-flex.justify-content-end {
+        justify-content: initial !important;
+    }
+    .kl-menu.kl-menu-footer {
+        text-align: left !important;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1399px){
+    .kl-hero{
+        min-height: 1200px;
+    }
 }
