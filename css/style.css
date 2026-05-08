@@ -331,6 +331,9 @@ ul{list-style: none; padding: 0 !important;}
     line-height: 1.75rem;
     color: #6a7181;
 }
+.kl-reseau-socio-head .kl-list-reseau li a {
+    border: solid 1px #0f1729;
+}
 .kl-link-header {
     margin-top: 55px;
 }
