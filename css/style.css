@@ -88,6 +88,10 @@
 
 body{font-family: "Space Grotesk", sans-serif !important; font-weight: 400 !important;}
 .fw-semibold {font-weight: 600; color: #0f1729;}
+/*loader page*/
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {position: fixed;left: 0px;top: 0px;width: 100%;height: 100%;z-index: 9999;background: url(../images/Preloader_2.gif) center no-repeat #fff;}
 a{text-decoration: none !important;}
 .wrapper{ width:100%;}
 img{max-width: 100%;}
@@ -211,7 +215,7 @@ ul{list-style: none; padding: 0 !important;}
 }
 .kl-menu-footer li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 6px;
 }
 .kl-menu-footer li a {
     color: rgb(245 247 250 / 70%);
@@ -577,6 +581,23 @@ ul{list-style: none; padding: 0 !important;}
     background: radial-gradient(circle, rgba(255, 118, 77, 0.6), transparent 100%);
     top: initial;
 }
+.kl-why-whom {
+    padding: 100px 0;
+    background: rgb(245 247 250);
+}
+.kl-blur-why-whom {
+    right: 0;
+    transform: initial !important;
+    width: 600px !important;
+    height: 600px !important;
+    left: initial !important;
+}
+.kl-title-why {
+    display: initial !important;
+}
+.kl-why-whom .kl-title-service {
+    max-width: 63%;
+}
 .kl-service {
     padding: 100px 0;
     background: rgb(245 247 250);
@@ -680,6 +701,221 @@ ul{list-style: none; padding: 0 !important;}
 }
 .kl-item-service:hover .kl-content-service p{
     color: rgb(245 247 250 / 70%);
+}
+.kl-method {
+    padding: 100px 0;
+    background: #0f1729;
+}
+.kl-title-method h2 {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: -3.6px;
+    font-family: Outfit, sans-serif;
+    margin-top: 30px;
+}
+.kl-other-title-method {
+    color: rgb(245 247 250 / 70%);
+    font-weight: 300;
+    font-style: italic;
+}
+.kl-title-method p {
+    color: rgb(245 247 250 / 70%);
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+}
+.kl-bloc-method {
+    margin-top: 70px;
+}
+.kl-item-method {
+    background: rgb(245 247 250 / 5%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 25px;
+    border: solid 1px rgb(245 247 250 / 10%);
+    transition: 0.5s;
+}
+.kl-step-method {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.kl-icon-method {
+    background-color: #0da2e7;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.kl-icon-method svg {
+    color: #fff;
+    width: 28px !important;
+    height: 28px !important;
+}
+.kl-step-method span {
+    color: rgb(245 247 250 / 20%);
+    letter-spacing: -2.4px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    font-family: Outfit, sans-serif;
+}
+.kl-txt-method h3 {
+    font-size: 24px;
+    color: #fff;
+    line-height: 32px;
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+}
+.kl-txt-method p {
+    color: rgb(245 247 250 / 70%);
+    line-height: 1.625;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+.kl-list-tache-method {
+    border-top: solid 1px rgb(245 247 250 / 10%);
+    padding-top: 25px !important;
+}
+.kl-list-tache-method li {
+    color: rgb(245 247 250 / 80%);
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+}
+.kl-list-tache-method li:before {
+    content: "";
+    background: #ff764d;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.kl-item-method:hover {
+    background: rgb(245 247 250 / 10%);
+}
+.kl-offer {
+    padding: 100px 0;
+    background: rgb(245 247 250);
+}
+.kl-other-title-offer{
+    display: initial !important;
+}
+.kl-item-offer {
+    padding: 30px;
+    transition: 0.5s;
+    background: #fff;
+    border-radius: 25px;
+    border: solid 1px #e0e4eb;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.kl-item-offer:hover {
+    border-color: rgb(15 23 41 / 40%);
+}
+.kl-icon-offer {
+    display: flex;
+    background: rgb(13 162 231 / 10%);
+    width: 48px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+.kl-icon-offer svg {
+    width: 24px !important;
+    height: 24px;
+    color: #0da2e7;
+}
+.kl-txt-offer h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.6px;
+    font-family: Outfit, sans-serif;
+    margin-bottom: 8px;
+}
+.kl-txt-offer p {
+    color: #6a7181;
+    font-size: 14px;
+    line-height: 20px;
+}
+.kl-inclus-offer {
+    margin-top: 20px;
+}
+.kl-inclus-offer h4 {
+    color: #6a7181;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.kl-list-inclus-offer {
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+.kl-list-inclus-offer li {
+    position: relative;
+    color: rgb(15 23 41 / 80%);
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+.kl-list-inclus-offer li:before {
+    content: "";
+    background: #0da2e7;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.kl-txt-devis h5 {
+    color: #ff764d;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 6px 15px;
+    background: rgb(255 118 77 / 10%);
+    border-radius: 9999px;
+}
+.kl-txt-devis {
+    margin-bottom: 20px;
+}
+.kl-btn-devis {
+    text-align: center;
+    margin-top: auto;
+}
+.kl-btn-devis a {
+    transition: 0.5s;
+    color: #f5f7fa !important;
+    font-size: 14px;
+    font-weight: 600;
+    background: #0f1729;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 9999px;
+}
+.kl-btn-devis a:hover {
+    background: #0da2e7;
 }
 .kl-contact {
     background: rgb(245 247 250);

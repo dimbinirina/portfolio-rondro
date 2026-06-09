@@ -45,6 +45,9 @@
     .kl-menu-footer li{
         padding: 0 4px;
     }
+    .kl-why-whom .kl-title-service {
+    max-width: 100%;
+    }
 }
 @media screen and (min-width: 320px) and (max-width: 575px){
     .kl-title-hero h1{
